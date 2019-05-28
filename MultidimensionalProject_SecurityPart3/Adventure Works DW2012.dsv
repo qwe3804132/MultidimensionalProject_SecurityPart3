@@ -342,6 +342,13 @@
                   <xs:element name="FiscalQuarter" msprop:design-time-name="a5273e06-80a0-43ea-b9d4-5c4ec7a77a59" msprop:DbColumnName="FiscalQuarter" msprop:FriendlyName="FiscalQuarter" type="xs:unsignedByte" />
                   <xs:element name="FiscalYear" msprop:design-time-name="a0462b58-c08c-4def-b31f-44daf2cd2fc4" msprop:DbColumnName="FiscalYear" msprop:FriendlyName="FiscalYear" type="xs:short" />
                   <xs:element name="FiscalSemester" msprop:design-time-name="0ea76d6a-72f1-46ed-99b0-fb799fa92b1a" msprop:DbColumnName="FiscalSemester" msprop:FriendlyName="FiscalSemester" type="xs:unsignedByte" />
+                  <xs:element name="BritishFormatDate" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="convert(varchar(10),FullDateAlternateKey,103)" msprop:IsLogical="True" msprop:design-time-name="dd94aea2-c222-4384-bb52-c8502c2de5b7" msprop:DbColumnName="BritishFormatDate" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

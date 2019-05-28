@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,21 +26,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>RwpaF22+kEFXCQFuUNppsrOj9lk=2019-05-28 1:24:45 PM2019-05-28 1:23:20 PM</TimeStamp>
+        <TimeStamp>vkdvqdZ9N7k0We66bqU0j5haJzI=2019-05-28 1:44:37 PM2019-05-28 1:23:20 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>O/GtmlQm9ElEsm1L983N/WCOO9c=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>Qqm3e5+Vm1JwP1pb6Y5IJzEMcFA=2019-05-28 2:15:28 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>l6+jOY/q+vup/YU45KXezu+ch5I=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>UK7IYn4/GFr+Kjer/9OF5ph5+YY=2019-05-28 1:28:45 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Dim Sales Territory</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>aMgvd21/HyjBCzFCEB95g0BYVDc=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>/v4/vGJoQofQwrzJL8hXVzK/yuo=2019-05-28 1:28:45 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -71,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-28T17:24:59.653333Z</LastDeployed>
+  <LastDeployed>2019-05-28T18:15:39.48Z</LastDeployed>
 </DeploymentSnapshot>
