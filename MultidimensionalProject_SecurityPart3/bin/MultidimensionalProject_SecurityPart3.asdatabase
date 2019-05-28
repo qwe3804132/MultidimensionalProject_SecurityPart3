@@ -89,30 +89,30 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
-                <Shape Id="Calendar Semester" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Calendar Semester" />
-                  </Attributes>
-                  <Position x="382" y="20" />
-                </Shape>
-                <Shape Id="Calendar Year" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Calendar Year" />
-                  </Attributes>
-                  <Position x="382" y="79" />
-                </Shape>
-                <Shape Id="Calendar Quarter" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Calendar Quarter" />
-                  </Attributes>
-                  <Position x="382" y="138" />
-                </Shape>
                 <Shape Id="English Month Name" Expanded="true">
                   <Attributes>
                     <Attribute Id="English Month Name" />
                     <Attribute Id="Month Number Of Year" />
                   </Attributes>
-                  <Position x="382" y="197" />
+                  <Position x="382" y="20" />
+                </Shape>
+                <Shape Id="Calendar Quarter" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Quarter" />
+                  </Attributes>
+                  <Position x="745" y="20" />
+                </Shape>
+                <Shape Id="Calendar Semester" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Semester" />
+                  </Attributes>
+                  <Position x="1107" y="20" />
+                </Shape>
+                <Shape Id="Calendar Year" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Year" />
+                  </Attributes>
+                  <Position x="1470" y="20" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -155,19 +155,8 @@
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>English Month Name</AttributeID>
+              <RelationshipType>Rigid</RelationshipType>
               <Name>English Month Name</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Quarter</AttributeID>
-              <Name>Calendar Quarter</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Year</AttributeID>
-              <Name>Calendar Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Semester</AttributeID>
-              <Name>Calendar Semester</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -179,6 +168,13 @@
           <Name>English Month Name</Name>
           <KeyColumns>
             <KeyColumn>
+              <DataType>SmallInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DimDate</TableID>
+                <ColumnID>CalendarYear</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
               <DataType>WChar</DataType>
               <DataSize>10</DataSize>
               <Source xsi:type="ColumnBinding">
@@ -187,11 +183,24 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>10</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>EnglishMonthName</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Month Number Of Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
               <Name>Month Number Of Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Calendar Quarter</AttributeID>
+              <RelationshipType>Rigid</RelationshipType>
+              <Name>Calendar Quarter</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>AttributeKey</OrderBy>
@@ -211,6 +220,7 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -219,6 +229,13 @@
           <Name>Calendar Quarter</Name>
           <KeyColumns>
             <KeyColumn>
+              <DataType>SmallInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DimDate</TableID>
+                <ColumnID>CalendarYear</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
               <DataType>UnsignedTinyInt</DataType>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_DimDate</TableID>
@@ -226,6 +243,20 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>CalendarQuarter</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Calendar Semester</AttributeID>
+              <RelationshipType>Rigid</RelationshipType>
+              <Name>Calendar Semester</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -249,6 +280,13 @@
           <Name>Calendar Semester</Name>
           <KeyColumns>
             <KeyColumn>
+              <DataType>SmallInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DimDate</TableID>
+                <ColumnID>CalendarYear</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
               <DataType>UnsignedTinyInt</DataType>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_DimDate</TableID>
@@ -256,6 +294,20 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>CalendarSemester</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Calendar Year</AttributeID>
+              <RelationshipType>Rigid</RelationshipType>
+              <Name>Calendar Year</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
