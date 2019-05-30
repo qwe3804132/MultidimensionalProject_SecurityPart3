@@ -1,4 +1,29 @@
 ﻿<Infos>
+  <Item name="Dim Product.dim">
+    <Time>636946466857954008</Time>
+    <Hash length="20">
+      <b>181</b>
+      <b>63</b>
+      <b>80</b>
+      <b>78</b>
+      <b>76</b>
+      <b>97</b>
+      <b>93</b>
+      <b>226</b>
+      <b>36</b>
+      <b>79</b>
+      <b>147</b>
+      <b>121</b>
+      <b>15</b>
+      <b>184</b>
+      <b>129</b>
+      <b>148</b>
+      <b>140</b>
+      <b>28</b>
+      <b>17</b>
+      <b>1</b>
+    </Hash>
+  </Item>
   <Item name="Adventure Works DW2012.dsv">
     <Time>636946478774248999</Time>
     <Hash length="20">
@@ -22,31 +47,6 @@
       <b>90</b>
       <b>39</b>
       <b>50</b>
-    </Hash>
-  </Item>
-  <Item name="Dim Sales Territory.dim">
-    <Time>636946469258404006</Time>
-    <Hash length="20">
-      <b>80</b>
-      <b>174</b>
-      <b>200</b>
-      <b>98</b>
-      <b>126</b>
-      <b>63</b>
-      <b>24</b>
-      <b>90</b>
-      <b>254</b>
-      <b>42</b>
-      <b>55</b>
-      <b>171</b>
-      <b>255</b>
-      <b>211</b>
-      <b>133</b>
-      <b>230</b>
-      <b>152</b>
-      <b>121</b>
-      <b>249</b>
-      <b>134</b>
     </Hash>
   </Item>
   <Item name="Dim Date.dim">
@@ -74,29 +74,29 @@
       <b>211</b>
     </Hash>
   </Item>
-  <Item name="Dim Product.dim">
-    <Time>636946466857954008</Time>
+  <Item name="Adventure Works DW2012.cube">
+    <Time>636948239784242971</Time>
     <Hash length="20">
-      <b>181</b>
-      <b>63</b>
-      <b>80</b>
-      <b>78</b>
-      <b>76</b>
-      <b>97</b>
-      <b>93</b>
-      <b>226</b>
-      <b>36</b>
-      <b>79</b>
-      <b>147</b>
-      <b>121</b>
-      <b>15</b>
-      <b>184</b>
-      <b>129</b>
-      <b>148</b>
-      <b>140</b>
-      <b>28</b>
-      <b>17</b>
-      <b>1</b>
+      <b>177</b>
+      <b>122</b>
+      <b>223</b>
+      <b>55</b>
+      <b>87</b>
+      <b>225</b>
+      <b>58</b>
+      <b>200</b>
+      <b>11</b>
+      <b>222</b>
+      <b>197</b>
+      <b>233</b>
+      <b>3</b>
+      <b>218</b>
+      <b>249</b>
+      <b>116</b>
+      <b>233</b>
+      <b>249</b>
+      <b>251</b>
+      <b>68</b>
     </Hash>
   </Item>
   <Item name="Adventure Works DW2012.ds">
@@ -149,31 +149,6 @@
       <b>2</b>
     </Hash>
   </Item>
-  <Item name="Adventure Works DW2012.cube">
-    <Time>636946469258819051</Time>
-    <Hash length="20">
-      <b>254</b>
-      <b>254</b>
-      <b>63</b>
-      <b>188</b>
-      <b>98</b>
-      <b>104</b>
-      <b>66</b>
-      <b>135</b>
-      <b>208</b>
-      <b>194</b>
-      <b>188</b>
-      <b>201</b>
-      <b>47</b>
-      <b>200</b>
-      <b>87</b>
-      <b>87</b>
-      <b>50</b>
-      <b>191</b>
-      <b>202</b>
-      <b>234</b>
-    </Hash>
-  </Item>
   <Item name="MultidimensionalProject_SecurityPart3.database">
     <Time>636946461873459477</Time>
     <Hash length="20">
@@ -197,6 +172,31 @@
       <b>21</b>
       <b>90</b>
       <b>51</b>
+    </Hash>
+  </Item>
+  <Item name="Dim Sales Territory.dim">
+    <Time>636948239783907962</Time>
+    <Hash length="20">
+      <b>155</b>
+      <b>123</b>
+      <b>166</b>
+      <b>69</b>
+      <b>85</b>
+      <b>98</b>
+      <b>136</b>
+      <b>242</b>
+      <b>9</b>
+      <b>110</b>
+      <b>71</b>
+      <b>71</b>
+      <b>97</b>
+      <b>86</b>
+      <b>207</b>
+      <b>11</b>
+      <b>54</b>
+      <b>175</b>
+      <b>85</b>
+      <b>22</b>
     </Hash>
   </Item>
 </Infos>
