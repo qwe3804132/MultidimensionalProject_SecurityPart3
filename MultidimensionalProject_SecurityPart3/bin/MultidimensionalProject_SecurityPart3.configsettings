@@ -21,6 +21,9 @@
       <Dimension>
         <ID>Dim Product</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Employee</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

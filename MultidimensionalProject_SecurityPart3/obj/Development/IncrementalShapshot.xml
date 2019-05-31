@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>vkdvqdZ9N7k0We66bqU0j5haJzI=2019-05-28 1:44:37 PM2019-05-28 1:23:20 PM</TimeStamp>
+        <TimeStamp>lP8FE2Q8k6zjeqC02NK9tuDOD0Q=2019-05-31 1:03:55 PM2019-05-28 1:23:20 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -53,8 +53,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cwvPV6a1Gz0HQGsVYCltx51GA5M=2019-05-31 1:03:55 PM2019-05-31 1:03:55 PM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>sXrfN1fhOsgL3sXpA9r5dOn5+0Q=2019-05-30 2:39:38 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>S729xzYJ1ZMoYk9qWerxuEz7YQM=2019-05-31 1:04:58 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -71,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-31T16:47:50.8Z</LastDeployed>
+  <LastDeployed>2019-05-31T17:05:01.613333Z</LastDeployed>
 </DeploymentSnapshot>
