@@ -760,6 +760,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>152</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimEmployee</TableID>
+              <ColumnID>FullName</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Parent Employee Key</AttributeID>
@@ -2224,6 +2232,13 @@
                         </xs:simpleType>
                       </xs:element>
                       <xs:element name="EmployeePhoto" msprop:design-time-name="067d18ca-4159-4637-bd3a-95964b1365c4" msprop:DataSize="0" msprop:DbColumnName="EmployeePhoto" msprop:FriendlyName="EmployeePhoto" type="xs:base64Binary" minOccurs="0" />
+                      <xs:element name="FullName" msdata:ReadOnly="true" msprop:design-time-name="5374f952-232c-416f-af71-a45bd959749e" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="FullName" msprop:ComputedColumnExpression="FirstName+ ' ' + isnull(MiddleName+' ','')+LastName">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="152" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>

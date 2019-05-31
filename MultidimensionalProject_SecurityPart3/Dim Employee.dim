@@ -114,6 +114,14 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="2f005654-438c-455b-a5c7-1731e10088ce">
+        <DataType>WChar</DataType>
+        <DataSize>152</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="16610d65-c901-4f8f-9879-0268ecdad9a4">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>FullName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="83382e8e-d233-46eb-b74b-5faa70ec808a">
           <AttributeID>Parent Employee Key</AttributeID>
