@@ -214,6 +214,7 @@
           <ID>Sales Territory Region</ID>
           <Name>Sales Territory Region</Name>
           <SourceAttributeID>Sales Territory Region</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
         </Level>
       </Levels>
     </Hierarchy>
