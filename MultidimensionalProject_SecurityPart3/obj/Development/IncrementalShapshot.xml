@@ -96,7 +96,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Ka1EJoFeZdelWuqXw3lxnubaBpo=2019-05-31 2:06:07 PM2019-05-31 2:04:24 PMcRt6v3NHVcgsqiiApbOoGZpgMkI=2019-05-31 2:04:24 PM2019-05-31 2:04:24 PM</TimeStamp>
+        <TimeStamp>UIOD4GDYlg8H/40brt5R+1nFCnI=2019-05-31 3:32:02 PM2019-05-31 2:04:24 PMcRt6v3NHVcgsqiiApbOoGZpgMkI=2019-05-31 2:04:24 PM2019-05-31 2:04:24 PM</TimeStamp>
         <ID>
           <String>FactInternetSales</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-31T18:06:09.673333Z</LastDeployed>
+  <LastDeployed>2019-05-31T19:32:11.746667Z</LastDeployed>
 </DeploymentSnapshot>
