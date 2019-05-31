@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tT9QTkxhXeIkT5N5D7iBlIwcEQE=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>ptLTa/NKtJaA2ciORaN9gTaUhi8=2019-05-31 3:43:44 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Dim Product</String>
         </ID>
@@ -89,14 +89,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>S729xzYJ1ZMoYk9qWerxuEz7YQM=2019-05-31 1:04:58 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
+        <TimeStamp>zVJhZfRjvfaa6gK01DJnQyuvfow=2019-05-31 3:43:44 PM2019-05-28 1:24:45 PMhXHhw324TDDWxkJ5V8WBF0BQ+AI=2019-05-28 1:24:45 PM2019-05-28 1:24:45 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>UIOD4GDYlg8H/40brt5R+1nFCnI=2019-05-31 3:32:02 PM2019-05-31 2:04:24 PMcRt6v3NHVcgsqiiApbOoGZpgMkI=2019-05-31 2:04:24 PM2019-05-31 2:04:24 PM</TimeStamp>
+        <TimeStamp>OeAFTq4/tA+rtNI4zURQUGI92SQ=2019-05-31 3:46:27 PM2019-05-31 2:04:24 PMUyQVvFqLYwsU+0CI1l3u8f6tuPQ=2019-05-31 3:46:27 PM2019-05-31 2:04:24 PM</TimeStamp>
         <ID>
           <String>FactInternetSales</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-31T19:32:11.746667Z</LastDeployed>
+  <LastDeployed>2019-05-31T19:49:53.606667Z</LastDeployed>
 </DeploymentSnapshot>

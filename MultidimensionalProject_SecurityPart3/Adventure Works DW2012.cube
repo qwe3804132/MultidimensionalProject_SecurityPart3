@@ -374,6 +374,12 @@
         <Attribute dwd:design-time-name="67aee635-9972-4ce3-a913-c34819798f72">
           <AttributeID>Product Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="0b20b6cd-3789-4d83-b362-97f9d7027eb6">
+          <AttributeID>English Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="963e7bc1-f0bf-476a-8c74-35cf750f8d8c">
+          <AttributeID>Color</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="f69aa7af-81db-4569-b95b-b397158cacf4">

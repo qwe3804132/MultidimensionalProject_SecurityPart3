@@ -59,6 +59,22 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Product</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Product</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Geography</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Geography</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
